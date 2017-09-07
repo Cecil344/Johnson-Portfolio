@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cecil J. | Welcome </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+        <div id="nameplate">
+          <h1> Contact</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+    </div>
+  </header>
+
+  <section id="showcase">
+    <div class="container">
+      <h1> Hey! Please feel free to reach out by filling out the form below! I'd be glad to hear from you. </h1>
+    </div>
+  </section>
+
+  <div id="contact-form">
+     <h1>Let's Chat!</h1>
+     <h2>FIll out the contact form below.</h2>
+     <p id="failure"></p>
+     <p id="success"></p>
+     <form method="post" action="emailForm.php">
+        <label for="name">Name: <span class="required">*</span></label>
+        <input type="text" id="name" name="name" value="" placeholder="Your name" required="required" autofocus="autofocus" />
+
+        <label for="email">Email Address: <span class="required">*</span></label>
+        <input type="email" id="email" name="email" value="" placeholder="your@email.com" required="required" />
+
+        <label for="website">Website: </label>
+        <input type="web" id="website" name="website" value="" placeholder="If Applicable" />
+
+        <label for="subject">Subject: </label>
+        <select id="subject" name="subject">
+           <option value="hello"> Let's Chat! </option>
+           <option value="quote"> I want to hire you. </option>
+           <option value="general"> I'm a Ravenclaw too! </option>
+        </select>
+
+        <label for="message">Message: <span class="required">*</span></label>
+        <textarea id="message" name="message" placeholder="Write your message here." required="required"></textarea>
+
+        <input type="submit" value="Send away!" id="submit" />
+     </form>
+  </div>
+
+
+
+<hr>
+<footer>
+  <p>Cecil J.'s Portfolio | Copyright &copy; 2017</p>
+</footer>
+</body>
+</html>

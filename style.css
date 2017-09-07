@@ -1,0 +1,167 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(61, 101, 245, 0.43);
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: scroll;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.blueText{
+  color: blue;
+}
+.ct{
+  color: blue;
+}
+
+header {
+  background: white;
+  color: black;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: blue 5px solid;
+
+}
+
+header a{
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.fancy{
+  font-family: 'Mrs Saint Delafield', cursive;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float: left;
+}
+
+header #branding h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+}
+
+/*header stuff ^^^^ |Requirement: Header with my name in it. Also, imported external font to change name in header.*/
+
+#showcase{
+  min-height: 400px;
+  background-image: url(http://static1.squarespace.com/static/503f90c5c4aa93dffe120ad5/t/50f45c04e4b06fbc8fceb58d/1358191621057/coding_workspace.jpg);
+  text-align: center;
+  color: white;
+  opacity: 0.9;
+}
+
+#showcase h1{
+  margin-top: 100px;
+  font-seix: 55px;
+  margin-bottom: 10px;
+}
+
+/*showcase-(body)^^^*/
+
+#pics .pic{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+#pics .pic2{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+#pics .pic img{
+  width: 90px;
+  height: 90px;
+  box-shadow: 10px 0px 10px 0px;
+}
+
+#pics .pic2 img{
+  width: 90px;
+  height: 90px;
+  border-radius: 25px;
+}
+/* Home page with row of images. ^^^ */
+
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+}
+/*contact form */
+#contact-form {
+   background-color: #4AC0F2;
+   width: 465px;
+   padding: 20px;
+   margin: 50px auto;
+   border-radius: 15px;
+   -moz-border-radius: 15px;
+   -webkit-border-radius: 15px;
+}
+
+#contact-form input,
+#contact-form select,
+#contact-form textarea,
+#contact-form label {
+   font-size: 15px;
+   margin-bottom: 2px;
+   font-family: Arial, san-serif;
+}
+
+#contact-form input,
+#contact-form select,
+#contact-form textarea {
+   width: 450px;
+   background: #fff;
+   border: 0;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+   margin-bottom: 25px;
+   padding: 5px;
+}
+
+#contact-form input:focus,
+#contact-form select:focus,
+#contact-form textarea:focus {
+   background-color: #E5E6E7;
+}
+
+#contact-form textarea {
+   height: 150px;
+}
+
+#contact-form #submit {
+   width: 450px;
+   color: #BFD7C1;
+   border: none;
+   background-color: #6EA070;
+}
+
+#contact-form #submit:hover {
+   background-color: blue;
+   color: #4AC0F2;
+}
+/*contact form*/
