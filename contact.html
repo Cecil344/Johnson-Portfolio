@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" src="javascript.js"></script>
 </head>
 
 <body>
@@ -51,13 +52,15 @@
            <option value="general"> I'm a Ravenclaw too! </option>
         </select>
 
-        <label for="message">Message: <span class="required">*</span></label>
-        <textarea id="message" name="message" placeholder="Write your message here." required="required"></textarea>
+        <label for="message"><span class="required"></span></label>
+        <textarea id="message" name="message" placeholder="Write your Hogwarts House" required="required"></textarea>
 
-        <input type="submit" value="Send away!" id="submit" />
+
+        <input  id="insertedName" />
+		<button onclick="functionName(insertedName.value)">Click here to submit and I'll tell you the best Hogwarts House</button>
+
      </form>
   </div>
-
 
 
 <hr>
